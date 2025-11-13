@@ -3,9 +3,9 @@
 const projectsData = [
     {
         title: "تطبيق إدارة الموارد البشرية (HRMS)",
-        date: new Date(2025, 7, 15), // 15 يناير 2024
-        image: "https://placehold.co/600x400/6c63ff/FFFFFF?text=HRMS+App",
-        description: "نظام متكامل لإدارة شؤون الموظفين في شركة ناشئة ليس لديها نظام سابق. يشمل إدارة الحضور والانصراف، طلبات الإجازات، طلبات السلف، وتوزيع المهام.",
+        date: new Date(2024, 0, 15),
+        image: "image/ESS/ESS.jpg",
+        description: "نظام متكامل لإدارة شؤون الموظفين في شركة ناشئة ليس لديها نظام سابق.",
         technologies: ["Flutter", "GetX", "PHP", "MySQL", "Firebase"],
         features: [
             "تحضير الحضور والانصراف حسب المواقع فعلياً من التطبيق",
@@ -14,13 +14,22 @@ const projectsData = [
             "نظام لتوزيع وتوكيل المهام لكل موظف مع تتبع التنفيذ",
             "رفع التقارير الإدارية وأرشفة الإجراءات"
         ],
-        category: "mobile"
+        category: "mobile",
+        galleryImages: [
+            "image/ESS/ESS.jpg",
+            "image/ESS/1_LOGIN.png",
+            "image/ESS/2_ADMIN_SYSTEM.jpg",
+            "image/ESS/11_USERS_SYSTEM.jpg",
+            "image/ESS/12_Attendance.jpg",
+            "image/ESS/14_tracker_employee.jpg",
+            "image/ESS/19_REPORTs.png",
+        ]
     },
     {
         title: "تطبيق متجر إلكتروني متعدد الأطراف",
-        date: new Date(2025, 6, 20), // 20 نوفمبر 2023
-        image: "https://placehold.co/600x400/ff64c7/FFFFFF?text=E-Commerce+App",
-        description: "منصة تجارة إلكترونية متكاملة لإدارة المنتجات والطلبات والعروض، مع تطبيقات منفصلة للمستخدمين، موظفي التوصيل والمشرفين.",
+        date: new Date(2023, 10, 20),
+        image: "image/Ecocommerce/ecocommerce.png",
+        description: "منصة تجارة إلكترونية متكاملة لإدارة المنتجات والطلبات والعروض.",
         technologies: ["Flutter", "GetX", "PHP", "MySQL", "Firebase"],
         features: [
             "عرض المنتجات والعروض والخصومات وإدارة السلة والطلبات",
@@ -28,13 +37,20 @@ const projectsData = [
             "تطبيق خاص بسائق التوصيل لإدارة عمليات الشحن والتوصيل",
             "تنبيهات وإشعارات فورية"
         ],
-        category: "mobile"
+        category: "mobile",
+        galleryImages: [
+            "image/Ecocommerce/ecocommerce.png",
+            "image/Ecocommerce/Main.jpg",
+            "image/Ecocommerce/Cart.jpg",
+            "image/Ecocommerce/Offers.jpg",
+            "image/Ecocommerce/Orders.jpg",
+        ]
     },
     {
         title: "نظام إدارة المهام التعليمية المدرسية",
-        date: new Date(2024, 8, 10), // 10 سبتمبر 2023
-        image: "https://placehold.co/600x400/00d9ff/FFFFFF?text=School+System",
-        description: "نظام مدرسي شامل يخدم أربع فئات مختلفة: الطلاب، أولياء الأمور، المدرسون والإدارة بميزات متكاملة للمتابعة والتحضير.",
+        date: new Date(2023, 8, 10),
+        image: "image/School/Schools Managing App Admin.png",
+        description: "نظام مدرسي شامل يخدم أربع فئات مختلفة: الطلاب، أولياء الأمور، المدرسون والإدارة.",
         technologies: ["Flutter", "GetX", "PHP", "MySQL", "Firebase"],
         features: [
             "للطلاب: الاطلاع على المناهج، بنك الأسئلة، الواجبات، التقارير",
@@ -42,13 +58,19 @@ const projectsData = [
             "للمدرسين: تخطيط الدروس، التحضير، رفع الدرجات",
             "للإدارة: متابعة الأداء، الجداول، الأنشطة"
         ],
-        category: "mobile"
+        category: "mobile",
+        galleryImages: [
+            "image/School/Schools Managing App Admin.png",
+            "image/School/Schools Managing App Parent.png",
+            "image/School/Schools Managing App Student.png",
+            "image/School/Schools Managing App Teacher.png"
+        ]
     },
     {
         title: "تطبيق دردشة تعليمي",
-        date: new Date(2024, 4, 15), 
+        date: new Date(2023, 4, 15),
         image: "https://placehold.co/600x400/6c63ff/FFFFFF?text=Chat+App",
-        description: "تطبيق دردشة بسيط كتجربة لتطبيق مصادقة المستخدمين وعرض رسائل فورية. كان بمثابة أول تجربة فعلية للتعامل مع قواعد بيانات خارجية.",
+        description: "تطبيق دردشة بسيط كتجربة لتطبيق مصادقة المستخدمين وعرض رسائل فورية.",
         technologies: ["Flutter", "GetX", "PHP", "MySQL", "Firebase"],
         features: [
             "تسجيل وإنشاء حساب جديد",
@@ -56,7 +78,13 @@ const projectsData = [
             "إدارة الرسائل مع حفظها على Firebase",
             "أول تجربة مع خدمات FCM"
         ],
-        category: "mobile"
+        category: "mobile",
+        galleryImages: [
+            "https://placehold.co/600x400/6c63ff/FFFFFF?text=Chat+App",
+            "https://placehold.co/600x400/ff64c7/FFFFFF?text=Chat+Screen+1",
+            "https://placehold.co/600x400/00d9ff/FFFFFF?text=Chat+Screen+2",
+            "https://placehold.co/600x400/564fd8/FFFFFF?text=Chat+Screen+3"
+        ]
     }
 ];
 // بيانات المهارات - محدثة بناءً على معلوماتك
@@ -87,6 +115,8 @@ const personalInfo = {
     phone: "00967 776838007",
     objective: "مطور تطبيقات Flutter في بداية المسار المهني، لدي خبرة واقعية في بناء تطبيقات متكاملة للهاتف بتقنيات حديثة. أتمتع بطاقة تعلم ذاتية عالية وشغف بإنجاز الأعمال البرمجية المتنوعة مع القدرة على العمل في بيئات متعددة والتعامل مع ضغط العمل. أبحث عن فرصة لمواصلة تطوير مهاراتي التقنية والمساهمة في حلول تكنولوجية فعلية."
 };
+
+
 
 // تهيئة التطبيق عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', function() {
@@ -329,7 +359,7 @@ function loadProjects(filter) {
         const timeText = calculateTimeSince(project.date);
         
         const projectCard = document.createElement('div');
-        projectCard.className = 'project-card';
+        projectCard.className = 'project-card clickable';
         projectCard.innerHTML = `
             <div class="project-header">
                 <h3 class="project-title">${project.title}</h3>
@@ -620,3 +650,174 @@ function initSectionNavigation() {
         }
     }, 100);
 }
+
+// نظام معرض الصور
+let currentProjectIndex = 0;
+let currentImageIndex = 0;
+
+function initProjectGallery() {
+    const projectCards = document.querySelectorAll('.project-card');
+    const gallery = document.getElementById('projectGallery');
+    const closeBtn = document.querySelector('.gallery-close');
+    const overlay = document.querySelector('.gallery-overlay');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const prevSideBtn = document.getElementById('prevSideBtn');
+    const nextSideBtn = document.getElementById('nextSideBtn');
+
+    // فتح المعرض عند النقر على بطاقة مشروع
+    projectCards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+            openGallery(index);
+        });
+    });
+
+    // إغلاق المعرض
+    closeBtn.addEventListener('click', closeGallery);
+    overlay.addEventListener('click', closeGallery);
+
+    // التنقل بين الصور (جميع الأزرار)
+    prevBtn.addEventListener('click', showPrevImage);
+    nextBtn.addEventListener('click', showNextImage);
+    prevSideBtn.addEventListener('click', showPrevImage);
+    nextSideBtn.addEventListener('click', showNextImage);
+
+    // إغلاق بالزر Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeGallery();
+        if (e.key === 'ArrowLeft') showPrevImage();
+        if (e.key === 'ArrowRight') showNextImage();
+    });
+}
+
+function updateGalleryImages() {
+    const project = projectsData[currentProjectIndex];
+    const mainImg = document.getElementById('galleryMainImg');
+    const thumbnailsContainer = document.querySelector('.gallery-thumbnails');
+    const imageCounter = document.querySelector('.image-counter');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const prevSideBtn = document.getElementById('prevSideBtn');
+    const nextSideBtn = document.getElementById('nextSideBtn');
+    
+    // تحديث الصورة الرئيسية
+    mainImg.src = project.galleryImages[currentImageIndex];
+    mainImg.alt = project.title;
+    
+    // تحديث العداد
+    imageCounter.textContent = `${currentImageIndex + 1} / ${project.galleryImages.length}`;
+    
+    // تحديث حالة جميع أزرار التنقل
+    const isFirstImage = currentImageIndex === 0;
+    const isLastImage = currentImageIndex === project.galleryImages.length - 1;
+    
+    [prevBtn, prevSideBtn].forEach(btn => {
+        btn.disabled = isFirstImage;
+    });
+    
+    [nextBtn, nextSideBtn].forEach(btn => {
+        btn.disabled = isLastImage;
+    });
+    
+    // تحديث الصور المصغرة
+    thumbnailsContainer.innerHTML = '';
+    project.galleryImages.forEach((img, index) => {
+        const thumbnail = document.createElement('div');
+        thumbnail.className = `thumbnail ${index === currentImageIndex ? 'active' : ''}`;
+        thumbnail.innerHTML = `<img src="${img}" alt="${project.title} - صورة ${index + 1}" loading="lazy">`;
+        
+        thumbnail.addEventListener('click', () => {
+            currentImageIndex = index;
+            updateGalleryImages();
+        });
+        
+        thumbnailsContainer.appendChild(thumbnail);
+    });
+}
+
+function openGallery(projectIndex) {
+    const gallery = document.getElementById('projectGallery');
+    const project = projectsData[projectIndex];
+    
+    if (!project.galleryImages || project.galleryImages.length === 0) return;
+    
+    currentProjectIndex = projectIndex;
+    currentImageIndex = 0;
+    
+    // تحديث عنوان المعرض
+    document.querySelector('.gallery-title').textContent = project.title;
+    
+    // عرض الصور
+    updateGalleryImages();
+    
+    // إظهار المعرض
+    gallery.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    
+    // إضافة تأثير ظهور
+    setTimeout(() => {
+        gallery.style.opacity = '1';
+    }, 10);
+}
+
+function closeGallery() {
+    const gallery = document.getElementById('projectGallery');
+    gallery.classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+function updateGalleryImages() {
+    const project = projectsData[currentProjectIndex];
+    const mainImg = document.getElementById('galleryMainImg');
+    const thumbnailsContainer = document.querySelector('.gallery-thumbnails');
+    const imageCounter = document.querySelector('.image-counter');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    
+    // تحديث الصورة الرئيسية
+    mainImg.src = project.galleryImages[currentImageIndex];
+    mainImg.alt = project.title;
+    
+    // تحديث العداد
+    imageCounter.textContent = `${currentImageIndex + 1} / ${project.galleryImages.length}`;
+    
+    // تحديث أزرار التنقل
+    prevBtn.disabled = currentImageIndex === 0;
+    nextBtn.disabled = currentImageIndex === project.galleryImages.length - 1;
+    
+    // تحديث الصور المصغرة
+    thumbnailsContainer.innerHTML = '';
+    project.galleryImages.forEach((img, index) => {
+        const thumbnail = document.createElement('div');
+        thumbnail.className = `thumbnail ${index === currentImageIndex ? 'active' : ''}`;
+        thumbnail.innerHTML = `<img src="${img}" alt="${project.title} - صورة ${index + 1}">`;
+        
+        thumbnail.addEventListener('click', () => {
+            currentImageIndex = index;
+            updateGalleryImages();
+        });
+        
+        thumbnailsContainer.appendChild(thumbnail);
+    });
+}
+
+function showPrevImage() {
+    if (currentImageIndex > 0) {
+        currentImageIndex--;
+        updateGalleryImages();
+    }
+}
+
+function showNextImage() {
+    const project = projectsData[currentProjectIndex];
+    if (currentImageIndex < project.galleryImages.length - 1) {
+        currentImageIndex++;
+        updateGalleryImages();
+    }
+}
+
+// لا تنس إضافة استدعاء الدالة في DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function() {
+    // ... الكود الحالي
+    initProjectGallery(); // أضف هذا السطر
+});
