@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بروفايل مبرمج | تصميم احترافي</title>
+    <title>
+       Osama AL-Alimi | Flutter Developer
+
+    </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -25,11 +28,16 @@
                 <span class="logo-dot">.</span>
             </div>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link active" data-section="home">الرئيسية</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link" data-section="about">عنّي</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link" data-section="skills">المهارات</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link" data-section="projects">المشاريع</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">اتصل بي</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link active" data-section="home">الرئيسية</a>
+                </li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-section="about">عنّي</a>
+                </li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-section="skills">المهارات</a>
+                </li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-section="projects">المشاريع</a>
+                </li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">اتصل بي</a>
+                </li>
             </ul>
             <div class="nav-actions">
                 <button class="theme-toggle" id="themeToggle">
@@ -221,7 +229,49 @@
             </div>
         </div>
     </section>
-
+    <!-- معرض الصور (سيظهر عند الضغط على مشروع) -->
+<!-- معرض الصور (سيظهر عند الضغط على مشروع) -->
+<div id="projectGallery" class="project-gallery">
+    <div class="gallery-overlay"></div>
+    
+    <!-- أزرار التنقل الجانبية -->
+    <button class="gallery-side-nav prev-side" id="prevSideBtn">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+    
+    <button class="gallery-side-nav next-side" id="nextSideBtn">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    
+    <div class="gallery-container">
+        <div class="gallery-header">
+            <h3 class="gallery-title"></h3>
+            <button class="gallery-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="gallery-content">
+            <div class="gallery-main-image">
+                <img id="galleryMainImg" src="" alt="">
+            </div>
+            
+            <div class="gallery-thumbnails">
+                <!-- الصور المصغرة ستضاف ديناميكياً -->
+            </div>
+        </div>
+        
+        <div class="gallery-navigation">
+            <button class="nav-btn prev-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <span class="image-counter">1 / 5</span>
+            <button class="nav-btn next-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+    </div>
+</div>
     <!-- قسم الاتصال -->
     <section id="contact" class="contact section">
         <div class="container">
@@ -255,12 +305,18 @@
                             <span>صنعاء - اليمن</span>
                         </div>
                     </div>
+                   
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
-                    </div>
+                        <a href="https://github.com/OsamaDev2025/" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/osama-alalimi-42339a382" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                           <a href="https://wa.me/967776838007" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>                   
                 </div>
                 <form action="https://formsubmit.co/osama.alalimi.dev@gmail.com" method="POST" class="contact-form" id="contactForm">
                     <div class="form-row">
@@ -294,11 +350,11 @@
                     <p>أحول الأفكار إلى واقع رقمي</p>
                 </div>
                 <div class="footer-links">
-                    <a href="#home">الرئيسية</a>
-                    <a href="#about">عنّي</a>
-                    <a href="#skills">المهارات</a>
-                    <a href="#projects">المشاريع</a>
-                    <a href="#contact">اتصل بي</a>
+                    <a href="#home" class="nav-link active" data-section="home">الرئيسية</a>
+                    <a href="#about" class="nav-link" data-section="about">عنّي</a>
+                    <a href="#skills" class="nav-link" data-section="skills">المهارات</a>
+                    <a href="#projects" class="nav-link" data-section="projects">المشاريع</a>
+                    <a href="#contact" class="nav-link" data-section="contact">اتصل بي</a>                
                 </div>
             </div>
             <div class="footer-bottom">
